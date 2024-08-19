@@ -1,0 +1,32 @@
+<html lang="en">
+    <body>
+        <script>
+
+            if (treciasSkaicius > 0) {
+                rezultatas +='($(treciasSkaicius))' ;
+            }
+            console.log(rezultatas);
+            
+           //Įmonė parduoda žvakes po 1 EUR. Perkant daugiau kaip 1000 vienetų taikoma 3 % nuolaida, daugiau kaip 2000 vienetų- 4 % nuolaida.
+           // Parašykite programą, kuri skaičiuos žvakių kainą ir atspausdintų atsakymą kiek žvakių ir kokia kaina perkama. 
+           // Žvakių kiekį generuokite random() funkcija nuo 5 iki 3000.
+
+          console.log('SESTA UZUOTIS--')
+
+          let ZvakiuKiekis = random(5.3000);
+         let nuolaida = 0;
+ 
+         if(zvakiukiekis> 1000) {
+        nuolaida = 0.03; 
+    }
+
+         if(zvakiukiekis >2000) {
+        nuolaida = 0.04;
+    }
+
+         console.log('perkamas kiekis:', zvakiuKiekis);
+         conslole.log('Suma yra:',) (zvakiuKiekis - (zvakiuKiekis * nuolaida)).toFixed(2);
+
+    </script>
+</body>
+</html>
